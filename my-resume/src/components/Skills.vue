@@ -57,24 +57,24 @@ export default {
   data() {
     return {
       technicalSkills: [
-        { name: '1С-Битрикс', level: 85 },
-        { name: 'WordPress', level: 75 },
-        { name: 'Git', level: 80 },
-        { name: 'Docker', level: 70 },
-        { name: 'MySQL', level: 80 },
-        { name: 'Linux', level: 65 }
+        { name: '1С-Битрикс', level: 75 },
+        { name: 'WordPress', level: 65 },
+        { name: 'Git', level: 75 },
+        { name: 'Docker', level: 50 },
+        { name: 'MySQL', level: 50 },
+        { name: 'Linux', level: 60 }
       ],
       programmingLanguages: [
-        { name: 'PHP', level: 85 },
-        { name: 'JavaScript', level: 75 },
+        { name: 'PHP', level: 75 },
+        { name: 'JavaScript', level: 65 },
         { name: 'HTML/CSS', level: 90 },
-        { name: 'C#', level: 60 },
+        { name: 'C#', level: 20 },
         { name: 'Python', level: 50 },
-        { name: 'SQL', level: 80 }
+        { name: 'SQL', level: 70 }
       ],
       languageSkills: [
         { name: 'Русский', level: 100 },
-        { name: 'Английский (B1)', level: 60 }
+        { name: 'Английский (A2)', level: 50 }
       ],
       otherSkills: [
         'MS Office', 'Active Directory', 'Windows Server', 'Unity', 

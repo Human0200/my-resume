@@ -21,7 +21,6 @@
           <div class="social-links">
             <a href="https://vk.com/antosian" target="_blank"><i class="fab fa-vk"></i></a>
             <a href="mailto:login00200@gmail.com"><i class="fas fa-envelope"></i></a>
-            <a href="tel:+79958570052"><i class="fas fa-phone"></i></a>
           </div>
         </div>
       </footer>

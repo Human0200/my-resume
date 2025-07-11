@@ -60,48 +60,48 @@ export default {
           title: 'Babynails',
           technology: 'Vue.js',
           category: 'Vue.js',
-          image: '/images/portfolio.jpg',
-          description: 'Сайт для детского маникюрного салона с системой записи онлайн.',
+          image: './images/babynails.png',
+          description: 'Сайт профессионального мастера по маникюру и педикюру.',
           link: 'https://babynails.ru/'
         },
         {
           title: 'Podocentr',
           technology: 'WordPress',
           category: 'WordPress',
-          image: '/images/portfolio.jpg',
-          description: 'Сайт медицинского центра с возможностью онлайн-записи и блогом.',
+          image: './images/podocentr.png',
+          description: 'Сайт медицинского центра с возможностью онлайн-оплаты и блогом.',
           link: 'https://podocentr.by/'
         },
         {
           title: 'Lifepravo',
           technology: 'WordPress',
           category: 'WordPress',
-          image: '/images/portfolio.jpg',
-          description: 'Юридический портал с библиотекой документов и форумом.',
+          image: './images/lifepravo.png',
+          description: 'Юридический сайт с возможностью оставить заявку на консультацию.',
           link: 'https://lifepravo.ru/'
         },
         {
           title: 'Palmira59',
           technology: '1С-Битрикс',
           category: 'Bitrix',
-          image: '/images/portfolio.jpg',
-          description: 'Корпоративный сайт строительной компании с каталогом проектов.',
+          image: './images/palmira.png',
+          description: 'Сайт попродаже авто-запчастей.',
           link: 'https://palmira59.ru/'
         },
         {
           title: 'Promportal24',
           technology: '1С-Битрикс',
           category: 'Bitrix',
-          image: '/images/portfolio.jpg',
-          description: 'Промышленный портал с системой объявлений и каталогом компаний.',
+          image: './images/promportal.png',
+          description: 'Сайт попродаже оборудования для заводов.',
           link: 'https://promportal24.ru/'
         },
         {
           title: 'GTNT',
           technology: '1С-Битрикс',
           category: 'Bitrix',
-          image: '/images/profile.jpg',
-          description: 'Сайт геологоразведочной компании с картой месторождений.',
+          image: './images/gtnt.png',
+          description: 'Сайт компании предоставлющей услуги в телекоммуникационной области.',
           link: 'https://gtnt.ru/'
         }
       ]

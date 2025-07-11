@@ -2,7 +2,6 @@
   <header class="header">
     <div class="header-content">
       <div class="profile-image">
-        <!-- Используем публичную папку для изображений -->
         <img src="/images/profile.jpg" alt="Русаков Антон Сергеевич">
       </div>
       <div class="profile-info">
@@ -12,11 +11,7 @@
         <div class="info-grid">
           <div class="info-item">
             <i class="fas fa-birthday-cake"></i>
-            <span>23 года, родился 11 марта 2002</span>
-          </div>
-          <div class="info-item">
-            <i class="fas fa-phone"></i>
-            <span>+7 (995) 857-00-52</span>
+            <span>23 года</span>
           </div>
           <div class="info-item">
             <i class="fas fa-envelope"></i>
@@ -29,6 +24,14 @@
           <div class="info-item">
             <i class="fab fa-vk"></i>
             <a href="https://vk.com/antosian" target="_blank">vk.com/antosian</a>
+          </div>
+          <div class="info-item">
+            <i class="fab fa-github"></i>
+            <a href="https://github.com/Human0200" target="_blank">Human00200</a>
+          </div>
+          <div class="info-item">
+            <i class="fab fa-telegram"></i>
+            <a href="https://t.me/ruant02" target="_blank">@ruant02</a>
           </div>
         </div>
       </div>
@@ -90,19 +93,21 @@ export default {
 
 .info-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 1rem;
 }
 
 .info-item {
   display: flex;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .info-item i {
   margin-right: 0.8rem;
   width: 20px;
   text-align: center;
+  font-size: 1.1rem;
 }
 
 .info-item a {
@@ -113,6 +118,7 @@ export default {
 
 .info-item a:hover {
   opacity: 0.8;
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
@@ -133,5 +139,26 @@ export default {
   .info-item {
     justify-content: center;
   }
+}
+
+/* Анимация иконок при наведении */
+.info-item i {
+  transition: transform 0.3s;
+}
+
+.info-item:hover i {
+  transform: scale(1.2);
+}
+
+.fab.fa-github {
+  color: #f5f5f5; /* Светлый цвет для GitHub */
+}
+
+.fab.fa-telegram {
+  color: #0088cc; /* Брендовый цвет Telegram */
+}
+
+.fab.fa-vk {
+  color: #4a76a8; /* Брендовый цвет VK */
 }
 </style>
