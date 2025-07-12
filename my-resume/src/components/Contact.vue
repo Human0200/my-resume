@@ -100,13 +100,13 @@ export default {
         { icon: 'fas fa-envelope', value: 'login00200@gmail.com', link: 'mailto:login00200@gmail.com', label: 'Email' },
         { icon: 'fab fa-vk', value: 'vk.com/antosian', link: 'https://vk.com/antosian ', label: 'VKontakte' },
         { icon: 'fab fa-telegram', value: '@ruant02', link: 'https://t.me/ruant02 ', label: 'Telegram' },
-        { icon: 'fab fa-github', value: 'github.com/yourusername', link: 'https://github.com/yourusername ', label: 'GitHub' },
+        { icon: 'fab fa-github', value: 'github.com/Human00200', link: 'https://github.com/Human0200 ', label: 'GitHub' },
         { icon: 'fas fa-map-marker-alt', value: 'Пермь, Россия', label: 'Местоположение' }
       ],
       socials: [
         { name: 'VKontakte', icon: 'fab fa-vk', link: 'https://vk.com/antosian ' },
         { name: 'Telegram', icon: 'fab fa-telegram', link: 'https://t.me/ruant02 ' },
-        { name: 'GitHub', icon: 'fab fa-github', link: 'https://github.com/yourusername ' },
+        { name: 'GitHub', icon: 'fab fa-github', link: 'https://github.com/Human0200' },
         { name: 'Email', icon: 'fas fa-envelope', link: 'mailto:login00200@gmail.com' }
       ],
       form: {

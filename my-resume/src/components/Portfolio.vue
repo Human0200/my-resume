@@ -103,6 +103,22 @@ export default {
           image: './images/gtnt.png',
           description: 'Сайт компании предоставлющей услуги в телекоммуникационной области.',
           link: 'https://gtnt.ru/'
+        },
+        {
+          title: 'Зонд пак',
+          technology: '1С-Битрикс',
+          category: 'Bitrix',
+          image: './images/zond-pak.png',
+          description: 'Сайт попродаже собственного оборудования для заводов.',
+          link: 'https://zond-pak.bitrix24shop.ru/'
+        },
+        {
+          title: 'Мое резюме',
+          technology: 'Vue.js',
+          category: 'Vue.js',
+          image: './images/myresume.png',
+          description: 'Мое резюме.',
+          link: 'http://a0922102.xsph.ru/'
         }
       ]
     }
